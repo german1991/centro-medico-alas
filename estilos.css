@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding-bottom: 10px;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+.logo img {
+  max-width: 180px;
+  margin-bottom: 10px;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+.subtitulo {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #0077b6;
+}
+
+main {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 30px 24px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #eaf4fb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 28px 22px;
+  max-width: 340px;
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #005b96;
+}
+
+.card p, .card ul {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  padding-left: 18px;
+}
+
+.btn {
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #005b96;
+}
+
+.antes-despues {
+  margin-bottom: 40px;
+}
+
+.antes-despues h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+
+.caso img {
+  max-width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #eee;
+}
+
+.contacto-card {
+  background: #eaf4fb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 22px 18px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+@media (max-width: 1100px) {
+  main {
+    padding: 18px 6px;
+  }
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+  .caso img {
+    max-width: 95vw;
+  }
+}
