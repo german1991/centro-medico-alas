@@ -28,6 +28,8 @@ header {
   font-size: 2.5rem;
   font-weight: 700;
   margin: 0;
+  color: #0077b6;
+
   letter-spacing: 2px;
 }
 
@@ -59,10 +61,13 @@ nav a {
   font-weight: 500;
   font-size: 1.1rem;
   transition: color 0.2s;
+  color: #0077b6;
+  font-weight: 600;
 }
 
 nav a:hover {
-  color: #0077b6;
+    color: #25D366;
+
 }
 
 main {
@@ -89,6 +94,7 @@ main {
 
 .card {
   background: #eaf4fb;
+  border: 1px solid #eaf4fb;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   padding: 28px 22px;
@@ -116,7 +122,7 @@ main {
 }
 
 .btn {
-  background: #0077b6;
+  background: #25D366;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -174,6 +180,16 @@ footer {
   padding: 18px 0;
   margin-top: 40px;
   font-size: 1rem;
+}
+footer a {
+  color: #25D366;
+  font-size: 1.5em;
+  margin: 0 8px;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #0077b6;
 }
 
 @media (max-width: 1100px) {
